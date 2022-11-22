@@ -6,6 +6,7 @@ $config = [
 ];
 $appJs = mix('dist/js/app.js');
 $appCss = mix('dist/css/app.css');
+
 @endphp
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
